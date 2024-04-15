@@ -4,7 +4,7 @@ const ThreeColumnSection = () => {
   return (
     <div className='info-section'>
       {/* First column */}
-      <div className="sub-section">
+      <div className="info-section">
         <div className="w-full p-4">
           <h2 className="text-lg font-bold mb-2">EQ beats IQ</h2>
         </div>

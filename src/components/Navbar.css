@@ -109,22 +109,7 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.5s ease;
-  }
-  
-  /* Add additional styles as needed */
-  
-  @keyframes slideAndRotate {
-    0% {
-      transform: translateX(0) rotate(0deg);
-    }
-    50% {
-      transform: translateX(100px) rotate(90deg);
-    }
-    100% {
-      transform: translateX(0) rotate(0deg);
-    }
-  }
-  
+  } 
   
   .card p {
     margin: 0;
@@ -155,14 +140,6 @@
     animation: slide 1s ease-in-out;
   }
   
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(200px); /* Adjust the distance to slide each card */
-    }
-  }
   .slider-container {
     width: 100%;
     overflow: hidden;
@@ -219,10 +196,10 @@
     text-align: left;
   }
   /* Additional styles for card components can be added here */
-  .timeline {
+  /* .timeline {
     position: relative;
     padding: 20px 0;
-  }
+  } */
   
   .timeline-line {
     position: absolute;
